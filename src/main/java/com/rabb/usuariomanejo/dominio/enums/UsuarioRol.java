@@ -1,6 +1,6 @@
 package com.rabb.usuariomanejo.dominio.enums;
 
-import com.rabb.usuariomanejo.dominio.excepciones.InvalidoUsuarioEstatusExcepcion;
+import com.rabb.usuariomanejo.dominio.excepciones.InvalidoUsuarioRolExcepcion;
 
 public enum UsuarioRol {
     ADMINISTRADOR,
@@ -13,6 +13,6 @@ public enum UsuarioRol {
                 return role;
             }
         }
-        throw InvalidoUsuarioEstatusExcepcion.becauseValueIsInvalid(value);
+        throw InvalidoUsuarioRolExcepcion.becauseValueIsInvalid(value);
     }
 }
