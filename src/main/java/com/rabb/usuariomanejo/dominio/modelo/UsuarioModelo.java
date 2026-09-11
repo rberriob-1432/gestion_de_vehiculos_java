@@ -2,10 +2,10 @@ package com.rabb.usuariomanejo.dominio.modelo;
 
 import com.rabb.usuariomanejo.dominio.enums.UsuarioEstatus;
 import com.rabb.usuariomanejo.dominio.enums.UsuarioRol;
-import com.rabb.usuariomanejo.dominio.excepciones.UsuarioNombre;
 import com.rabb.usuariomanejo.dominio.ov.UsuarioContraseña;
 import com.rabb.usuariomanejo.dominio.ov.UsuarioCorreo;
 import com.rabb.usuariomanejo.dominio.ov.UsuarioId;
+import com.rabb.usuariomanejo.dominio.ov.UsuarioNombre;
 import lombok.Value;
 
 @Value
