@@ -1,5 +1,5 @@
-package com.rabb.usuariomanejo.dominio.excepciones;
-import main.java.com.rabb.usuariomanejo.dominio.excepciones.InvalidoUsuarioNombreExcepcion;
+package com.rabb.usuariomanejo.dominio.ov;
+import com.rabb.usuariomanejo.dominio.excepciones.InvalidoUsuarioNombreExcepcion;
 import java.util.Objects;
 
 public record UsuarioNombre(String value) {
