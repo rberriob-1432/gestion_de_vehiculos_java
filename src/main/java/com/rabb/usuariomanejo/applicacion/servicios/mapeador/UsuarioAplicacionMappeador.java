@@ -1,17 +1,16 @@
 package com.rabb.usuariomanejo.applicacion.servicios.mapeador;
 import java.util.Objects;
-
 import com.rabb.usuariomanejo.applicacion.servicios.dto.comandos.ActualizarUsuarioComando;
 import com.rabb.usuariomanejo.applicacion.servicios.dto.comandos.CrearUsuarioComando;
 import com.rabb.usuariomanejo.applicacion.servicios.dto.comandos.EliminarUsuarioComando;
 import com.rabb.usuariomanejo.applicacion.servicios.dto.query.ConseguirUsuarioPorIdQuery;
 import com.rabb.usuariomanejo.dominio.enums.UsuarioEstatus;
 import com.rabb.usuariomanejo.dominio.enums.UsuarioRol;
-import com.rabb.usuariomanejo.dominio.excepciones.UsuarioNombre;
 import com.rabb.usuariomanejo.dominio.modelo.UsuarioModelo;
 import com.rabb.usuariomanejo.dominio.ov.UsuarioContraseña;
 import com.rabb.usuariomanejo.dominio.ov.UsuarioCorreo;
 import com.rabb.usuariomanejo.dominio.ov.UsuarioId;
+import com.rabb.usuariomanejo.dominio.ov.UsuarioNombre;
 import lombok.experimental.UtilityClass;
 
 @UtilityClass
