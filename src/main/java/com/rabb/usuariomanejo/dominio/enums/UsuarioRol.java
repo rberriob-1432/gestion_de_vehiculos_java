@@ -8,9 +8,9 @@ public enum UsuarioRol {
     MIEMBRO;
 
     public static UsuarioRol fromString(final String value) {
-        for (final UsuarioRol rol : values()) {
-            if (rol.name().equalsIgnoreCase(value)) {
-                return rol;
+        for (final UsuarioRol role : values()) {
+            if (role.name().equalsIgnoreCase(value)) {
+                return role;
             }
         }
         throw InvalidoUsuarioEstatusExcepcion.becauseValueIsInvalid(value);
