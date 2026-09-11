@@ -5,13 +5,13 @@ import com.rabb.usuariomanejo.dominio.modelo.UsuarioModelo;
 import lombok.Getter;
 
 @Getter
-public final class UsuarioCreadoEventoDomino extends EventoDominio {
+public final class UsuarioCreadoEventoDominio extends EventoDominio {
 
     private static final String EVENT_NAME = "usuario.created";
 
     private final UsuarioModelo usuario;
 
-    public UsuarioCreadoEventoDomino(final UsuarioModelo usuario) {
+    public UsuarioCreadoEventoDominio(final UsuarioModelo usuario) {
         super(EVENT_NAME);
         this.usuario = usuario;
     }
