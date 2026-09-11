@@ -1,4 +1,4 @@
-package main.java.com.rabb.usuariomanejo.dominio.excepciones;
+package com.rabb.usuariomanejo.dominio.excepciones;
 public final class InvalidoUsuarioContraseñaExcepcion extends DominioExcepcion {
 
     private static final String MENSAJE_VACIO = "La contraseña no puede estar vacía.";

@@ -1,4 +1,4 @@
-package main.java.com.rabb.usuariomanejo.dominio.excepciones;
+package com.rabb.usuariomanejo.dominio.excepciones;
 public final class InvalidoUsuarioCorreoExcepcion extends DominioExcepcion {
 
     private static final String MENSAJE_VACIO = "el correo electrónico no puede estar vacío.";

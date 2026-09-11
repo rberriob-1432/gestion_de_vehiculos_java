@@ -1,5 +1,4 @@
-package main.java.com.rabb.usuariomanejo.dominio.excepciones;
-
+package com.rabb.usuariomanejo.dominio.excepciones;
 public abstract class DominioExcepcion extends RuntimeException {
 
     protected DominioExcepcion(final String message) {

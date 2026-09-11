@@ -1,4 +1,4 @@
-package main.java.com.rabb.usuariomanejo.dominio.excepciones;
+package com.rabb.usuariomanejo.dominio.excepciones;
 public final class InvalidoUsuarioEstatusExcepcion extends DominioExcepcion {
 
     private static final String MENSAJE_INVALIDO = "El estatus del usuario es invalido: %s";

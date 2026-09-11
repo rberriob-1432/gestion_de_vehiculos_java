@@ -1,4 +1,4 @@
-package main.java.com.rabb.usuariomanejo.dominio.excepciones;
+package com.rabb.usuariomanejo.dominio.excepciones;
 public final class InvalidasCredencialesExcepcion extends DominioExcepcion {
 
     private static final String MENSAJE_INVALIDA_CREDENCIALES = "Correo o contraseña incorrectos.";

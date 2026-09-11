@@ -1,4 +1,4 @@
-package main.java.com.rabb.usuariomanejo.dominio.excepciones;
+package com.rabb.usuariomanejo.dominio.excepciones;
 public final class CorreoEnviadorExcepcion extends DominioExcepcion {
 
     private static final String MENSAJE_POR_DEFECTO = "La notificación por correo no pudo ser enviada.";
