@@ -20,7 +20,7 @@ public class UsuarioAplicacionMappeador {
         return UsuarioModelo.create(
                 new UsuarioId(comando.id()),
                 new UsuarioNombre(comando.nombre()),
-                new UsuarioCorreo(comando.email()),
+                new UsuarioCorreo(comando.correo()),
                 UsuarioContraseña.fromPlainText(comando.password()),
                 UsuarioRol.fromString(comando.role()));
     }

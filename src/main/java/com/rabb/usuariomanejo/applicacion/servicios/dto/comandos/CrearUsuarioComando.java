@@ -9,9 +9,9 @@ public record CrearUsuarioComando(
         @NotBlank(message = "nombre no puede estar en blanco")
         @Size(min = 3, message = "nombre debe tener al menos 3 caracteres")
         String nombre,
-        @NotBlank(message = "email no puede estar en blanco")
-        @Email(message = "email debe tener un formato válido")
-        String email,
+        @NotBlank(message = "correo no puede estar en blanco")
+        @Email(message = "correo debe tener un formato válido")
+        String correo,
         @NotBlank(message = "password no puede estar en blanco")
         @Size(min = 8, message = "password debe tener al menos 8 caracteres")
         String password,
