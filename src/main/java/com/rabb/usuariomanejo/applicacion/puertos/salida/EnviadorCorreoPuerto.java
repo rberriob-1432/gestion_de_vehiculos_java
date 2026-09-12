@@ -1,5 +1,5 @@
 package com.rabb.usuariomanejo.applicacion.puertos.salida;
 import com.rabb.usuariomanejo.dominio.modelo.CorreoModeloEnvio;
 public interface EnviadorCorreoPuerto {
-    void send(CorreoModeloEnvio destinocorreo);
+    void enviar(CorreoModeloEnvio destinocorreo);
 }
